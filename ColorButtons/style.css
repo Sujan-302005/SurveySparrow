@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Red button */
+.red {
+  background-color: red;
+}
+.red:hover {
+  background-color: darkred;
+}
+
+/* Blue button */
+.blue {
+  background-color: blue;
+}
+.blue:hover {
+  background-color: navy;
+}
+
+/* Green button */
+.green {
+  background-color: green;
+}
+.green:hover {
+  background-color: darkgreen;
+}
+
+/* Yellow button */
+.yellow {
+  background-color: goldenrod;
+}
+.yellow:hover {
+  background-color: orange;
+}
