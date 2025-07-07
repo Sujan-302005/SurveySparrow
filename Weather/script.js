@@ -1,6 +1,6 @@
 function getWeather() {
   const city = document.getElementById('cityInput').value;
-  const apiKey = '0e4df4f60136461dbe434305250707'; // Replace with your actual API key from weatherapi.com
+  const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key from weatherapi.com
 
   if (!city) {
     document.getElementById('weatherResult').innerText = 'Please enter a city name.';
